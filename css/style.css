@@ -299,6 +299,7 @@ border-radius: 15px;
 padding: 40px 40px;
 text-align: center;
 margin-bottom: 65px;
+margin-left: 25px;
 position: relative;
 transition: 0.5s;
 z-index: 99;
@@ -367,6 +368,9 @@ transition: 0.5s;
 .sl-item:hover::before{
 opacity: 1;
 transition: 0.5s;
+}
+#gallery .row {
+    --bs-gutter-x: 0;
 }
 /*********************
 customer section design
@@ -536,4 +540,112 @@ color: #fb0000;
     to{
         top: 35%;
     }
+}
+
+
+@media (max-width: 576px){
+#home .navbar-light .navbar-toggler-icon {
+    filter: invert(100);
+}
+#home .navbar-collapse {
+    text-align: right;
+}
+#home .custon-btn {
+    font-size: 15px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 15px;
+}
+#home .ms-auto {
+    margin-left: auto!important;
+    margin-right: 20px;
+}
+#banner {
+padding-bottom: 0;
+}
+.l-content {
+    height: 50vh;
+    margin-left: 55px;
+}
+.l-content h1 {
+    font-size: 45px;
+}
+.l-content p {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.g-card {
+    padding: 10px 40px;
+    margin-bottom: 35px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+#gallery {
+    padding: 40px 0;
+    height: 140vh;
+}
+.offset-1 {
+    margin-left: 0;
+}
+#customer {
+    padding: 90px 0;
+    padding-bottom: 25px;
+    text-align: center;
+}
+#about {
+    padding: 30px 0;
+}
+.list p {
+    font-size: 15px;
+    margin-left: 10px;
+}
+.user-gallery {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#services {
+    padding: 20px 0;
+}
+.u-review {
+    border-left: 1px solid rgba(103,94,94,.2);
+    padding: 15px 10px;
+}
+#customer h1 {
+margin-bottom: 0;
+}
+footer {
+    padding: 50px 0;
+    text-align: center;
+}
+.f-first{
+    margin-bottom: 20px;
+}
+.f-middle p {
+    margin-bottom: 20px;
+}
+.f-img {
+    margin-bottom: 15px;
+}
+.f-middle {
+    margin-bottom: -20px;
+}
+.f-line {
+    margin-bottom: 15px;
+}
+.back-top {
+    bottom: 80px;
+}
+
+
+
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+
+
 }
